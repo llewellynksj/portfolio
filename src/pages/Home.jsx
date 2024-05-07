@@ -16,8 +16,8 @@ const Home = () => {
           <Col>
             <Image className={`p-2`} src={image} alt="Kate Llewellyn" fluid/>
           </Col>
-          <Col>
-            <h1 className="text-center">Kate Llewellyn</h1>
+          <Col className='pt-3'>
+            <h1>Kate Llewellyn</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque reprehenderit a nesciunt. Dolorem aspernatur similique dicta rerum vero nam. Voluptas vero quis mollitia eligendi cum sed placeat rem animi quo.</p>
           </Col>
         </Row>
