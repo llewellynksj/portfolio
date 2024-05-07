@@ -13,9 +13,7 @@ function App() {
       <div>
         <NavBar />
         
-        <Container>
           <Home />
-        </Container>
       </div>
       
     </>

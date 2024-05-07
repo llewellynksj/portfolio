@@ -10,16 +10,19 @@ import Col from 'react-bootstrap/Col';
 
 const Home = () => {
   return (
-    <Container className={`${s.HomeContainer}`}>
-      <Row className="flex-column flex-lg-row-reverse justify-content-center align-items-center">
-        <Col>
-          <Image className={`p-2`} src={image} alt="Kate Llewellyn" fluid/>
-        </Col>
-        <Col>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque reprehenderit a nesciunt. Dolorem aspernatur similique dicta rerum vero nam. Voluptas vero quis mollitia eligendi cum sed placeat rem animi quo.</p>
-        </Col>
-      </Row>
-    </Container>
+    <div className="bg-light w-100">
+      <Container className={`${s.HomeContainer}`}>
+        <Row className="flex-column flex-lg-row-reverse justify-content-center align-items-center">
+          <Col>
+            <Image className={`p-2`} src={image} alt="Kate Llewellyn" fluid/>
+          </Col>
+          <Col>
+            <h1 className="text-center">Kate Llewellyn</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque reprehenderit a nesciunt. Dolorem aspernatur similique dicta rerum vero nam. Voluptas vero quis mollitia eligendi cum sed placeat rem animi quo.</p>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   )
 }
 
