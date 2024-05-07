@@ -1,5 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar';
+import Home from './pages/Home';
 
 // Bootstrap
 import { Container } from 'react-bootstrap';
@@ -9,17 +10,16 @@ function App() {
 
   return (
     <>
-    <div>
-      <NavBar />
+      <div>
+        <NavBar />
+        
+        <Container>
+          <Home />
+        </Container>
+      </div>
       
-      <Container>
-
-      </Container>
-    </div>
-      
-      <h1>Hello</h1>
     </>
   )
 }
 
-export default App
+export default App;
