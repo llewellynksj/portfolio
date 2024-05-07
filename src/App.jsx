@@ -1,6 +1,9 @@
 import './App.css';
 import NavBar from './components/NavBar';
 
+// Bootstrap
+import { Container } from 'react-bootstrap';
+
 
 function App() {
 
@@ -8,6 +11,10 @@ function App() {
     <>
     <div>
       <NavBar />
+      
+      <Container>
+
+      </Container>
     </div>
       
       <h1>Hello</h1>
