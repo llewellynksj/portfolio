@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-// import './Skill.css';
+import s from '../../styles/Skill.module.css';
 
 // Bootstrap
 import Card from 'react-bootstrap/Card';
-import Container from 'react-bootstrap/Container';
 
 const Skill = ({ name, description }) => {
   const [isHovered, setIsHovered] = useState(false);
@@ -13,16 +12,15 @@ const Skill = ({ name, description }) => {
   };
 
   return (
-    <div className='my-2'>
-      <Card className={`skill-card ${isHovered ? 'hovered' : ''}`} onMouseEnter={handleHover} onMouseLeave={handleHover}>
-        <Card.Body>
-          {isHovered ? (
-            <Card.Text>{description}</Card.Text>
-          ) : (
-            <Card.Title>{name}</Card.Title>
-          )}
-        </Card.Body>
-      </Card>
+    <div className={`my-2 ${s.FlipCard}`} onMouseEnter={handleHover} onMouseLeave={handleHover}>
+      <div className={`${s.FlipCardInner}`}>
+        <div className={`${s.FlipCardFront}`}>
+          <p>{name}</p>
+        </div>
+        <div className={`${s.FlipCardBack}`}>
+          <p>{description}</p>
+        </div>
+      </div>
     </div>
   );
 };
