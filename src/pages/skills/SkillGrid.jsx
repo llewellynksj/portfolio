@@ -27,7 +27,7 @@ const SkillGrid = () => {
       <p className='lead pt-3'>Soft Skills</p>
       <Row xs={2} md={3} lg={4} xl={5} className={`skill-grid`}>
         {skillsData.map((skill, index) => (
-          <Col key={index} className={`${s.SkillCard}`}>
+          <Col key={index} className={`${s.SkillCard} text-center`}>
             <Skill name={skill.name} description={skill.description} />
           </Col>
         ))}
