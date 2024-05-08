@@ -1,5 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar';
+import About from './pages/About';
 import Home from './pages/Home';
 
 // Bootstrap
@@ -14,6 +15,8 @@ function App() {
         <NavBar />
         
           <Home />
+          <About />
+
       </div>
       
     </>
