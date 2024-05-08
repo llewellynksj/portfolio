@@ -1,4 +1,4 @@
-
+import SkillGrid from './skills/SkillGrid';
 // Bootstrap
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -26,8 +26,7 @@ const About = () => {
         </Row>
 
         <Row>
-          <p className='lead pt-3'>Soft Skills</p>
-          
+          <SkillGrid />
         </Row>
 
       </Container>
