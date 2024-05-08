@@ -13,7 +13,7 @@ const Skill = ({ name, description }) => {
   };
 
   return (
-    <Container className='m-2'>
+    <div className='my-2'>
       <Card className={`skill-card ${isHovered ? 'hovered' : ''}`} onMouseEnter={handleHover} onMouseLeave={handleHover}>
         <Card.Body>
           {isHovered ? (
@@ -23,7 +23,7 @@ const Skill = ({ name, description }) => {
           )}
         </Card.Body>
       </Card>
-    </Container>
+    </div>
   );
 };
 
