@@ -1,0 +1,7 @@
+.SkillCard {
+  min-width: 80px;
+}
+
+.SkillCard * {
+  font-size: 13px;
+}
