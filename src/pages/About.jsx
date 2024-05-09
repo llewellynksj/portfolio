@@ -1,4 +1,5 @@
 import SkillGrid from './skills/SkillGrid';
+
 // Bootstrap
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -6,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 
 const About = () => {
   return (
-    <div>
+    <>
       <Container>
         <h1 className='text-center p-4 m-2'>About</h1>
         
@@ -30,7 +31,7 @@ const About = () => {
         </Row>
 
       </Container>
-    </div>
+    </>
   )
 }
 

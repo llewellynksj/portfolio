@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 
 const Home = () => {
   return (
-    <div className="bg-light w-100">
+    <div className="bg-light w-100 mb-4 pb-4">
       <Container className={`${s.HomeContainer}`}>
         <Row className="flex-column flex-lg-row-reverse justify-content-center align-items-center">
           <Col>

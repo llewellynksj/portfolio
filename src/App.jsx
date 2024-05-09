@@ -2,6 +2,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import About from './pages/About';
 import Home from './pages/Home';
+import Projects from './pages/Projects';
+import Education from './pages/Education';
 
 // Bootstrap
 import { Container } from 'react-bootstrap';
@@ -16,6 +18,8 @@ function App() {
         
           <Home />
           <About />
+          <Projects />
+          <Education />
 
       </div>
       
