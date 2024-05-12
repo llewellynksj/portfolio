@@ -4,9 +4,7 @@ import About from './pages/About';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Education from './pages/Education';
-
-// Bootstrap
-import { Container } from 'react-bootstrap';
+import Employment from './pages/Employment';
 
 
 function App() {
@@ -20,6 +18,7 @@ function App() {
           <About />
           <Projects />
           <Education />
+          <Employment />
 
       </div>
       

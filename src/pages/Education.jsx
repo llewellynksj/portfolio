@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaLinkedin } from "react-icons/fa";
 import Qualification from '../components/Qualification';
 import Certificate from '../components/Certificate';
 
@@ -13,9 +12,7 @@ const Education = () => {
     <div className="w-100 my-4 py-4">
       <Container>
         <h1 className='text-center p-4 m-2'>Education</h1>
-        {/* <div className='d-flex justify-content-center pb-3'>
-          <a href="#" className=''><FaLinkedin size={25} /></a>
-        </div> */}
+        
 
         <Row className="flex-column flex-lg-row justify-content-center mt-3">
           <Col>
