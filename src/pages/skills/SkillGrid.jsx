@@ -1,5 +1,7 @@
 import React from 'react';
 import Skill from './Skill';
+
+// Styles
 import s from '../../styles/SkillGrid.module.css';
 
 // Bootstrap

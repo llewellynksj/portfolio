@@ -1,4 +1,6 @@
 import SkillGrid from './skills/SkillGrid';
+
+// React Icons
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
@@ -11,6 +13,7 @@ import { DiHeroku } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa";
 import { SiPostgresql } from "react-icons/si";
 
+// Styles
 import s from '../styles/About.module.css';
 
 // Bootstrap

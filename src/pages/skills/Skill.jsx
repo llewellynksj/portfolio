@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import s from '../../styles/Skill.module.css';
 
-// Bootstrap
-import Card from 'react-bootstrap/Card';
+// Styles
+import s from '../../styles/Skill.module.css';
 
 const Skill = ({ name, description }) => {
   const [isHovered, setIsHovered] = useState(false);

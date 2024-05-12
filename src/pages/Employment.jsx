@@ -1,6 +1,8 @@
 import React from 'react'
-import { FaLinkedin } from "react-icons/fa";
 import JobRole from '../components/JobRole';
+
+// React Icons
+import { FaLinkedin } from "react-icons/fa";
 
 // Bootstrap
 import Container from 'react-bootstrap/Container';

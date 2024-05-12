@@ -1,4 +1,6 @@
 import image from '../assets/image.webp';
+
+// Styles
 import s from "../styles/Home.module.css";
 
 // Bootstrap

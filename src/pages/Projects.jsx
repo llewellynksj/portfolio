@@ -1,5 +1,9 @@
 import React from 'react'
+
+// React Icons
 import { FaGithub } from "react-icons/fa";
+
+// Styles
 import s from '../styles/Projects.module.css';
 
 // Bootstrap
