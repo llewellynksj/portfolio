@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Education from './pages/Education';
 import Employment from './pages/Employment';
-
+import Contact from './pages/Contact';
 
 function App() {
 
@@ -17,8 +17,9 @@ function App() {
           <Home />
           <About />
           <Projects />
-          <Education />
           <Employment />
+          <Education />
+          <Contact />
 
       </div>
       

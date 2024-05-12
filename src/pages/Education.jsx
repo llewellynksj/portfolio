@@ -9,25 +9,25 @@ import Col from 'react-bootstrap/Col';
 
 const Education = () => {
   return (
-    <div className="w-100 my-4 py-4">
+    <div className="bg-light w-100 my-4 py-4">
       <Container>
         <h1 className='text-center p-4 m-2'>Education</h1>
         
 
         <Row className="flex-column flex-lg-row justify-content-center mt-3">
-          <Col>
+          <Col className='d-flex flex-column justify-content-center align-items-center'>
             
             <h4>Professional</h4>
             <Qualification title="Level 5 (EQF) Diploma in Full Stack Software Development" institution="Code Institute" year="2024" grade=" Merit" />
 
-            <h4 className='mt-3'>Higher Education</h4>
+            <h4 className='mt-4'>Higher Education</h4>
             <Qualification title="BA(Hons) Politics with Sociology" institution="Kingston University" year="2013" grade="2:1" />
 
-            <h4>Secondary Education</h4>
+            <h4 className='mt-4'>Secondary Education</h4>
             <Qualification title="A-Levels" institution="Torquay Grammar School for Girls" year="2004" grade="BCC" />
             <Qualification title="GCSEs" institution="Torquay Grammar School for Girls" year="2002" grade="10 B-C, including English, Maths and Science" />
           </Col>
-          <Col>
+          <Col className="d-flex flex-column justify-content-center align-items-center">
             <h4>Professional Certificates</h4>
             <h6 className='mb-1'><strong>HackerRank:</strong></h6>
             <ul>

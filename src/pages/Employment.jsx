@@ -11,9 +11,9 @@ const Employment = () => {
   return (
     <div className="w-100 my-4 py-4">
       <Container>
-        <h1 className='text-center p-4 m-2'>Employment</h1>
+        <h1 className='text-center pt-4 m-2 pb-2'>Employment</h1>
         <div className='d-flex justify-content-center pb-3'>
-          <a href="#" className=''><FaLinkedin size={25} /></a>
+          <a href="https://www.linkedin.com/in/llewellynksj/" target="_blank" rel="noopener" aria-label="visit LinkedIn profile (opens in new tag)" className=''><FaLinkedin size={25} color="black" /></a>
         </div>
 
         <Row className="flex-column flex-lg-row justify-content-center mt-3">
@@ -24,7 +24,8 @@ const Employment = () => {
             < JobRole job_title="Customer Support Team Leader" start_date="February 2017" end_date="December 2017" employer="Explore Learniing" description="Ensuring the highest level of customer service was delivered to our clients and various stakeholders in line with the business' core values and beliefs. Assisting customers to meet the educational needs of their children and promoting a healthy and happy environment for learning." skills="Customer Service, Conflict Resolution, Leadership, Teamwork" />
           </Col>
           <Col>
-            < JobRole job_title="Website Developer" start_date="September 2023" end_date="December 2023" employer="University of Exeter" description="Within my role as the C2S2 Administrator, I have been able to take on a web development project for the Centre for Climate Communication and Data Science (c3ds) at Exeter University. In liaison with the Centre Directors I am designing a responsive website to showcase the new centre, it's team, research, publications, and events." skills="Django, Python, JavaScript, Bootstrap, HTML, CSS" web_link="https://c3ds-99d00e8e992e.herokuapp.com/" />
+            <h4>Other Work</h4>
+            < JobRole job_title="Website Developer" start_date="September 2023" end_date="December 2023" employer="University of Exeter" description="Within my role as the C2S2 Administrator, I have been able to take on a web development project for the Centre for Climate Communication and Data Science (c3ds) at Exeter University. In liaison with the Centre Directors I am designing a responsive website to showcase the new centre, it's team, research, publications, and events." skills="Django, Python, JavaScript, Bootstrap, HTML, CSS" web_link="https://c3ds-99d00e8e992e.herokuapp.com/" screenshot1="https://i.gyazo.com/61d50baa85d0e6341dc4e0625b0414e6.gif" screenshot2="https://i.gyazo.com/8649c77d44147828c68e33d23c4c3d46.gif" />
           </Col>
         </Row>
       </Container>
