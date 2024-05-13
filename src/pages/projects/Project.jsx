@@ -7,14 +7,14 @@ import s from '../../styles/Project.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const Project = ({ title, project_video, github_link, description, extra_description, live_link }) => {
+const Project = ({ title, project_video, github_link, description, extra_description, live_link, tech_stack }) => {
   return (
     <>
+      <h4 className='py-4'>{title}</h4>
       <Col>
-        <h4>{title}</h4>
         <p>{description}</p>
         <p className={`d-none d-lg-block`}>{extra_description}</p>
-        <div className="d-flex flex-column"></div>
+        <p className='m-0'>Tech Stack: {tech_stack}</p>
         <div className="d-flex flex-column">
           <a href={github_link} target="_blank" rel="noopener" aria-label="visit Github repository (opens in new tag)">Github Repository</a>
           <a href={live_link} target="_blank" rel="noopener" aria-label="visit live project (opens in new tag)">Live Project</a>
