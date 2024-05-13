@@ -12,11 +12,11 @@ const JobRole = ({ job_title, start_date, end_date, employer, description, skill
       <p>{description}</p>
       <p>Key Skills: {skills}</p>
       <div className='d-flex justify-content-center flex-column align-items-center'>
-      {screenshot1 && <img src={screenshot1} alt="screenshot" className={`${s.JobRoleImg}`} />}
-      <br />
-      {screenshot2 && <img src={screenshot2} alt="screenshot" />}
-      <br />
-      {web_link && <a href={web_link} target="_blank" rel="noopener" aria-label="visit related website (opens in new tag)">Visit Website</a>}
+        {screenshot1 && <img src={screenshot1} alt="screenshot" className={`${s.JobRoleImg}`} />}
+        <br />
+        {screenshot2 && <img src={screenshot2} alt="screenshot" className={`${s.JobRoleImg}`} />}
+        <br />
+        {web_link && <a href={web_link} target="_blank" rel="noopener" aria-label="visit related website (opens in new tag)">Visit Website</a>}
       </div>
     </div>
   );
