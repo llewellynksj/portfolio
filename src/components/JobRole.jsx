@@ -5,7 +5,7 @@ import s from '../styles/JobRole.module.css';
 
 const JobRole = ({ job_title, start_date, end_date, employer, description, skills, web_link, screenshot1, screenshot2 }) => {
   return (
-    <div>
+    <div className={`${s.JobCard}`} >
       <h6 className="mb-0"><strong>{job_title}</strong></h6>
       <p className="mb-0">{employer}</p>
       <p>{start_date} - {end_date}</p>

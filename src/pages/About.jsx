@@ -29,7 +29,7 @@ const About = () => {
         
         <Row className="flex-column flex-md-row-reverse justify-content-center">
           <Col lg={4} className='d-flex flex-column'>
-            <p className='lead text-center'>Tech Stack</p>
+            <p className='lead text-center'><strong>Tech Stack</strong></p>
             <Container>
               <Row className={`${s.TechStack} d-flex justify-content-center align-items-center my-2`}>
                 <Col><a href=""><FaHtml5 size={50} color="orange" /></a></Col>

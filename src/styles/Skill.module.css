@@ -33,18 +33,22 @@
 }
 
 .FlipCardFront {
-  background-color: #f8f9fa; /* Adjust front card background color */
-  color: #000; /* Adjust front card text color */
+  background-color: #f8f9fa;
 }
 
 .FlipCardBack {
-  background-color: #007bff; /* Adjust back card background color */
-  color: #fff; /* Adjust back card text color */
+  background-color: #f4fef4;
+  color: #000;
   transform: rotateY(180deg);
+  padding: 5px;
 }
 
 /* Adjust card dimensions and text styles as needed */
-.FlipCardBack p,
+.FlipCardBack p {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 .FlipCardFront p {
   font-size: 16px;
   line-height: 1.6;
