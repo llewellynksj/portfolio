@@ -10,11 +10,11 @@ import Col from 'react-bootstrap/Col';
 const Project = ({ title, project_video, github_link, description, extra_description, live_link, tech_stack }) => {
   return (
     <>
-      <h4 className='py-4'>{title}</h4>
-      <Col>
+      <Col className={`${s.ProjectBlock}`}>
+        <h4 className='py-1'>{title}</h4>
         <p>{description}</p>
         <p className={`d-none d-lg-block`}>{extra_description}</p>
-        <p className='m-0'>Tech Stack: {tech_stack}</p>
+        <p className='m-0'><strong>Tech Stack:</strong> {tech_stack}</p>
         <div className="d-flex flex-column">
           <a href={github_link} target="_blank" rel="noopener" aria-label="visit Github repository (opens in new tag)">Github Repository</a>
           <a href={live_link} target="_blank" rel="noopener" aria-label="visit live project (opens in new tag)">Live Project</a>

@@ -1,4 +1,4 @@
-import image from '../assets/image.webp';
+import bitmoji_laptop from '../assets/bitmoji_laptop.png';
 
 // Styles
 import s from "../styles/Home.module.css";
@@ -16,7 +16,7 @@ const Home = () => {
       <Container className={`${s.HomeContainer}`}>
         <Row className="flex-column flex-lg-row-reverse justify-content-center align-items-center">
           <Col>
-            <Image className={`p-2`} src={image} alt="Kate Llewellyn" fluid/>
+            <Image className={`p-2 align-self-end`} src={bitmoji_laptop} alt="Kate Llewellyn" width="400" fluid/>
           </Col>
           <Col className='pt-3'>
             <h1>Kate Llewellyn</h1>

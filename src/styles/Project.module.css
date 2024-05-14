@@ -2,3 +2,7 @@
   width: 100%;
   height: auto;
 }
+
+.ProjectBlock p {
+  font-size: 14px;
+}
