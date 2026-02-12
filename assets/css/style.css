@@ -112,8 +112,42 @@ body {
     margin:5px;
     font-size:13px;
 }
+/* PROJECT PAGE */
 
-/* PROJECTS */
+.tool-row{
+    margin-top:12px;
+    margin-bottom:28px;
+}
+
+.tool-chip{
+    display:inline-block;
+    background:#faf9f7;
+    padding:6px 12px;
+    border-radius:8px;
+    margin-right:8px;
+    font-size:13px;
+}
+
+.project-card{
+    background:#ffffff;
+    border-radius:20px;
+    padding:28px;
+    margin-top:24px;
+    margin-bottom:24px;
+    border:1px solid #f0ede8;
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 24px rgba(0,0,0,0.04);
+}
+
+.project-content h3{
+    margin-top:0px;
+}
+
+/* PROJECT REPORTS */
 
 /* Layout */
 .content-wrapper {
@@ -201,3 +235,4 @@ footer {
 .tableauPlaceholder {
     margin-top: 24px;
 }
+
