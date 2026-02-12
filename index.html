@@ -1,94 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>Kate Llewellyn Portfolio</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<title>Kate Llewellyn Portfolio</title>
+
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top pt-3">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Kate Llewellyn</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="nav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">CV</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                </ul>
-            </div>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+
+        <a class="navbar-brand" href="#">Kate Llewellyn</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">CV</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
         </div>
-    </nav>
-    
-    <div class="container mt-5 pt-4 outer-container">
-        <div class="row pt-4">
 
-            <!-- COLUMN 1 -->
-            <div class="col-md-5">
-                <div class="row h-100">
+    </div>
+</nav>
 
-                    <div class="col-12 h-50 d-flex align-items-center justify-content-center">
-                        <img class="profile-img" src="assets/images/me.jpg" alt="Kate Llewellyn">
-                    </div>
 
-                    <div class="col-12 h-50 d-flex align-items-center justify-content-center">
-                        <div class="row img-text text-center">
-                            <h3>Kate Llewellyn</h3>
-                            <p>Junior Developer & Data Analyst</p>
-                            <div>
-                                <a href="https://www.linkedin.com/in/katellewellyn/" target="_blank">LinkedIn</a>
-                                <a href="https://github.com/katellewellyn" target="_blank">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
+<!-- HERO -->
 
-                </div>
-            </div>
+<div class="container hero-wrapper">
 
-            <!-- COLUMN 2 -->
-            <div class="col-md-7">
-                <div class="row h-100">
+    <div class="row align-items-center">
 
-                    <div class="col-12 d-flex align-items-center justify-content-center"
-                        style="height: 30%;">
-                        <em>A <strong>human-centred analyst</strong> turning data into clear insight and action - driven by a commitment to <strong>women’s health and women's reproductive rights.</strong></em>
-                    </div>
+        <!-- LEFT -->
 
-                    <div class="col-12 d-flex align-items-center justify-content-start"
-                        style="height: 20%;">
-                        <button type="button" class="btn btn-primary m-2"><a class="text-white text-decoration-none" href="projects.html">Projects</a></button>
-                        <button type="button" class="btn btn-primary m-2"><a class="text-white text-decoration-none" href="contact.html">Contact</a></button>
-                    </div>
+        <div class="col-lg-5 text-center">
 
-                    <div class="col-12 d-flex align-items-center justify-content-start">
-                        <p>Key Skills</p>
-                    </div>
-                </div>
+            <img class="profile-img" src="assets/images/me.jpg" alt="Kate Llewellyn">
+
+            <h2 class="name">Kate Llewellyn</h2>
+
+            <p class="title">
+                Data Analyst specialising in women’s health and social impact
+            </p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/katellewellyn/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/katellewellyn" target="_blank">GitHub</a>
             </div>
 
         </div>
+
+
+        <!-- RIGHT -->
+
+        <div class="col-lg-7">
+
+            <p class="hero-text">
+                I turn complex data into clear, meaningful insight.
+                My work focuses on labour economics, gender equity, and reproductive health —
+                using analysis to support better policy, stronger workplaces, and more informed decisions.
+            </p>
+
+            <div class="button-group">
+
+                <a href="projects.html" class="btn-main">
+                    View Projects
+                </a>
+
+                <a href="contact.html" class="btn-secondary">
+                    Get in Touch
+                </a>
+
+            </div>
+
+            <div class="skills-box">
+
+                <h3>Core Skills</h3>
+
+                <div class="skills-list">
+
+                    <span>Tableau</span>
+                    <span>SQL</span>
+                    <span>Python</span>
+                    <span>Data Visualisation</span>
+                    <span>Statistical Analysis</span>
+                    <span>Policy-Focused Research</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
+</div>
 
 
-    
-    <!-- <p><a href="pregnancyloss_project.html">Project 1</a></p> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
