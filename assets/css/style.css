@@ -31,8 +31,7 @@ body {
 }
 
 .navbar{
-    padding-left:40px;
-    padding-right:40px;
+    padding: 10px 40px;
 }
 
 .navbar-brand{
