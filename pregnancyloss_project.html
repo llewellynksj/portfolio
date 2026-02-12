@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -15,202 +17,142 @@
 </head>
 
 <body>
-    <div class="container m-5">
 
+<main class="container content-wrapper">
+
+    <header class="page-header">
         <h1>The Lasting Economic Impact of Pregnancy Loss</h1>
-
-        <p>
-            This project explores how pregnancy loss is associated with changes in women's employment and earnings over time. 
-            Using data from the UK Office for National Statistics (ONS), the analysis examines whether adverse pregnancy events correspond with measurable disruptions in labour market outcomes.
+        <p class="intro">
+            This project explores how pregnancy loss is associated with changes in women’s employment and earnings over time.
+            Using data from the UK Office for National Statistics (ONS), it examines whether adverse pregnancy events correspond
+            with measurable disruptions in labour market outcomes.
         </p>
+    </header>
 
-        <h2>🔎 Project Overview</h2>
-
+    <section>
+        <h2>Project Overview</h2>
         <p>
-            Pregnancy loss can have profound emotional and physical effects. However, its economic consequences are less frequently examined. 
-            This dashboard investigates two key questions:
+            Pregnancy loss can have profound emotional and physical effects. However, its economic consequences are less frequently examined.
+            This analysis focuses on two key questions:
         </p>
 
         <ul>
-            <li>How does pregnancy loss affect women's earnings?</li>
+            <li>How does pregnancy loss affect women’s earnings?</li>
             <li>Are women less likely to be employed following a loss?</li>
         </ul>
 
         <p>
-            Understanding these patterns may help inform workplace policy, economic support programmes, and advocacy efforts focused on gender equality, women's reproductive rights, and employee wellbeing.
+            Understanding these patterns may help inform workplace policy, economic support programmes, and advocacy efforts
+            focused on gender equality and employee wellbeing.
         </p>
+    </section>
 
-        <br>
+    <section class="viz-section">
+        <h2>Interactive Dashboard</h2>
 
-        <h2>📊 Interactive Dashboard</h2>
-
-        <div class='tableauPlaceholder' id='viz1770550577521' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1770550577521'>
             <noscript>
                 <a href='#'><img alt='Economic Consequences of Pregnancy Loss ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ec&#47;EconomicConsequencesofPregnancyLoss&#47;EconomicConsequencesofPregnancyLoss&#47;1_rss.png' style='border: none' /></a>
             </noscript>
             <object class='tableauViz'  style='display:none;'>
                 <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='EconomicConsequencesofPregnancyLoss&#47;EconomicConsequencesofPregnancyLoss' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ec&#47;EconomicConsequencesofPregnancyLoss&#47;EconomicConsequencesofPregnancyLoss&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /><param name='filter' value='publish=yes' />
             </object>
-        </div>                
-
-        <br>
-
-        <h2>📈 Key Insights</h2>
-
-        <div class="highlight">
-            <ul>
-                <li><strong>Employment declines immediately following pregnancy loss</strong> but generally recovers within several quarters.</li>
-                <li><strong>Earnings fall after pregnancy loss and remain below baseline for longer</strong>, even after many women return to work.</li>
-                <li>This suggests that returning to employment does not necessarily restore prior earning trajectories.</li>
-                <li>Patterns are broadly consistent across pregnancy loss categories, although the magnitude varies.</li>
-            </ul>
         </div>
+    </section>
 
-        <br>
-
-        <div>
-            <h3>Chart 1: Impact of pregnancy loss on women’s earnings over time</h3>
-            <p>This chart shows how women’s average monthly earnings change in the months before and after experiencing a pregnancy loss. Each line represents a different type of loss, and the vertical line marks when the loss occurred.</p>
-
-            <p>It shows that earnings are relatively stable before the event of loss, they drop sharply immediately afterwards, and then gradually recover over time — although the speed and scale of recovery differs depending on the type of loss.</p>
-
-            <p>Each line shows the modelled change in average monthly earnings (£) compared to a baseline period before the pregnancy event. </p>
-            
-            <p>Event-based time analysis:</p>
-
-
-            <table class="table">
-                <thead>
-                    <tr>
-                    <th scope="col">Time Period</th>
-                    <th scope="col">Quarter</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                    <th scope="row">1 year prior to loss</th>
-                    <td>-4</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">1-3 months prior to loss</th>
-                    <td>-1</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">When the loss occurred</th>
-                    <td>0</td>
-                    </tr>
-                    <tr>
-                    <th scope="row">1 year after the loss</th>
-                    <td>+4</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <h3>What does this chart tell us?</h3>
-
-            <p>This chart examines how women’s earnings change relative to a pregnancy loss. By structuring the data around the timing of the event, we can observe a clear earnings shock immediately afterwards, followed by gradual recovery. The stability before the event strengthens confidence that the disruption is linked to the pregnancy outcome rather than pre-existing trends.</p>
-        </div>
-
-        <br>
-
-        <div>
-            <h3>Chart 2: Impact of pregnancy loss on women’s employment probability over time</h3>
-            <p>This chart shows how women’s likelihood of being in employment changes before and after experiencing a pregnancy loss. Each line represents a different type of loss, and again the vertical line marks when the loss occurred.</p>
-
-            <p>We can see that employment drops immediately after the loss, suggesting many women temporarily leave work. Over time, employment levels generally recover, and in some cases even exceed previous levels.</p>
-
-            <p>Each line shows the change in probability of being employed, compared to before the pregnancy loss. For example, a mark at -4 indicates that women were about 4 percentage points less likely to be employed than before.</p>
-
-            
-            <h3>What does this chart tell us?</h3>
-
-            <p>This chart examines how employment changes relative to a pregnancy loss. We see an immediate reduction in employment probability, suggesting many women temporarily exit the workforce. Although employment often recovers, pairing this with earnings data reveals that financial impacts persist — indicating that a return to work does not always mean returning to prior earning trajectories.</p>
-        </div>
-
-        <br>
-
-        <h2>🧹 Data Source and Preparation</h2>
-
-        <p>
-            Data for this project was obtained from the <strong>Office for National Statistics (ONS)</strong>, specifically:
-        </p>
-
-        <p>
-            <em>"The impact of adverse pregnancy events on monthly employee earnings and employment, England (2014–2022)."</em>
-        </p>
-
-        <p>
-            The dataset provides modelled estimates of earnings and employment probability relative to pre-event baselines.
-        </p>
-
-        <p><strong>Preparation steps included:</strong></p>
-
+    <section class="highlight-box">
+        <h2 class="mt-1">Key Insights</h2>
         <ul>
-            <li>Unioning multiple ONS tables into a single analytical dataset</li>
-            <li>Standardising field names for clarity</li>
-            <li>Creating calculated fields to categorise event types</li>
-            <li>Structuring time relative to the pregnancy event for longitudinal analysis</li>
+            <li><strong>Employment declines immediately following pregnancy loss</strong>, but generally recovers within several quarters.</li>
+            <li><strong>Earnings fall after pregnancy loss and remain below baseline for longer</strong>, even after many women return to work.</li>
+            <li>This suggests that returning to employment does not necessarily restore prior earning trajectories.</li>
+            <li>Patterns are consistent across loss categories, though the magnitude varies.</li>
         </ul>
+    </section>
 
+    <section>
+        <h2>Understanding the Charts</h2>
+
+        <h3>Chart 1: Earnings over time</h3>
         <p>
-            All data used is aggregated and anonymised.
+            This chart shows how women’s average monthly earnings change in the months before and after pregnancy loss.
+            Earnings are stable prior to the event, drop sharply afterwards, and recover gradually — though not always fully.
         </p>
+        <p>Each line represents the modelled change in average monthly earnings (£) compared to a baseline period before the pregnancy event.</p>
+        <p>Event based time analysis:</p>
 
-        <br>
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th>Time Period</th>
+                    <th>Quarter</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1 year prior</td><td>-4</td></tr>
+                <tr><td>1–3 months prior</td><td>-1</td></tr>
+                <tr><td>Loss occurred</td><td>0</td></tr>
+                <tr><td>1 year after</td><td>+4</td></tr>
+            </tbody>
+        </table>
 
-        <h2>💡 Why This Matters</h2>
-
+        <h3>Chart 2: Employment probability</h3>
         <p>
-            While many women return to employment following pregnancy loss, the persistence of reduced earnings suggests longer-term economic consequences. 
-            These findings highlight the importance of supportive workplace policies, including flexible return-to-work arrangements and financial protections.
+            Employment probability drops immediately following loss, suggesting temporary exits from work.
+            While employment often recovers, earnings data indicate that financial impacts persist.
         </p>
+    </section>
 
+    <section class="soft-section">
+        <h2 class="mt-1">Data Source & Preparation</h2>
         <p>
-            This analysis demonstrates how data can contribute to conversations around gender equity, labour participation, and employee wellbeing.
+            Data was obtained from the Office for National Statistics (ONS), covering England from 2014–2022.
         </p>
-        <p>Are we supporting women in the right way? </p>
-
-        <br>
-
-        <h2>🚀 Future Enhancements</h2>
-
         <ul>
-            <li>Exploring demographic differences (e.g., age or region)</li>
-            <li>Linking findings to employment policy contexts</li>
-            <li>Expanding analysis to additional labour outcomes</li>
+            <li>Unioned multiple ONS tables</li>
+            <li>Standardised variables</li>
+            <li>Created event-relative time measures</li>
+            <li>Ensured anonymised, aggregated outputs</li>
         </ul>
+    </section>
 
-        <br>
-
-        <h2>🔗 Links</h2>
-
+    <section>
+        <h2>Why This Matters</h2>
         <p>
-            <strong>Tableau Public:</strong><br>
+            Although many women return to work following pregnancy loss, reduced earnings often persist.
+            This highlights the importance of supportive workplace policies and financial protections.
+        </p>
+    </section>
+
+    <section>
+        <h2>Links</h2>
+        <p>
             <a href="https://public.tableau.com/views/EconomicConsequencesofPregnancyLoss/EconomicConsequencesofPregnancyLoss" target="_blank">
-            View the interactive dashboard</a>
+                View the interactive dashboard
+            </a><br>
+            <a href="#" target="_blank">
+                GitHub repository
+            </a>
         </p>
+    </section>
 
+    <footer>
         <p>
-            <strong>GitHub Repository:</strong><br>
-            <a href="https://github.com/llewellynksj/tableau-project-1" target="_blank">Project code and documentation</a>
+            Source: Office for National Statistics (ONS). Modelled estimates show changes relative to pre-event baselines.
         </p>
+    </footer>
 
+</main>
 
-        <p style="margin-top:40px; font-size:0.9em; color:#555;">
-            <strong>Source:</strong> Office for National Statistics (ONS). Modelled estimates show changes relative to pre-event employment and earnings levels.
-        </p>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1770550577521');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height='880px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
 
-    </div>
-
-    <script type='text/javascript'>
-        var divElement = document.getElementById('viz1770550577521');                    
-        var vizElement = divElement.getElementsByTagName('object')[0];                    
-        if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
-        else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
-        else { vizElement.style.width='100%';vizElement.style.height='827px';}                     
-        var scriptElement = document.createElement('script');                    
-        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-    </script>
 </body>
 </html>
