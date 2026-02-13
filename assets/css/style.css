@@ -73,7 +73,7 @@ body {
 
 .btn-main{
     background:var(--accent);
-    color:var(--highlight);
+    color: white;
     padding:12px 24px;
     border-radius:10px;
     text-decoration:none;
@@ -97,7 +97,7 @@ body {
 
 .btn-secondary:hover {
     background: var(--accent);
-    color:var(--highlight);
+    color: white;
     text-decoration: none;
 }
 /* Skills */
