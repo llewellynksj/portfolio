@@ -8,7 +8,7 @@
     --ink: #2a2a2a;
     --muted: #6b6b6b;
     --warm-bg: #f6f4f1;
-    --accent: #BFC9BE;
+    --accent: #8f9f8c;
     --highlight: #efe6dc;
 }
 
@@ -73,7 +73,7 @@ body {
 
 .btn-main{
     background:var(--accent);
-    color:black;
+    color:white;
     padding:12px 24px;
     border-radius:10px;
     text-decoration:none;
