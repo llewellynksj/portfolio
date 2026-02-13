@@ -89,7 +89,7 @@ body {
 
 .btn-secondary{
     background:var(--highlight);
-    color:var(--accent);
+    color: #657562;
     padding:12px 24px;
     border-radius:10px;
     text-decoration:none;
