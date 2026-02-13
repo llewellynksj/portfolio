@@ -81,9 +81,9 @@ body {
 }
 
 .btn-main:hover{
-    background: white;
+    background: var(--highlight);
     color: var(--accent);
-    border: 1px solid var(--accent);
+    border: 2px solid var(--accent);
     text-decoration: none;
 }
 
@@ -95,6 +95,11 @@ body {
     text-decoration:none;
 }
 
+.btn-secondary:hover {
+    background:var(--ink);
+    color:var(--highlight);
+    text-decoration: none;
+}
 /* Skills */
 
 .skills-box{
