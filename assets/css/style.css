@@ -82,7 +82,8 @@ body {
 
 .btn-main:hover{
     background: white;
-    color:v ar(--accent);
+    color: var(--accent);
+    border: var(--accent);
 }
 
 .btn-secondary{
