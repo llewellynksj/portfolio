@@ -83,7 +83,7 @@ body {
 .btn-main:hover{
     background: white;
     color: var(--accent);
-    border: var(--accent);
+    border: 1px solid var(--accent);
 }
 
 .btn-secondary{
