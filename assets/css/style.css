@@ -81,7 +81,8 @@ body {
 }
 
 .btn-main:hover{
-    opacity:0.9;
+    background: white;
+    color:v ar(--accent);
 }
 
 .btn-secondary{
