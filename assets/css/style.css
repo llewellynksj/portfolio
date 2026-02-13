@@ -96,7 +96,7 @@ body {
 }
 
 .btn-secondary:hover {
-    background:var(--ink);
+    background: #657562;
     color:var(--highlight);
     text-decoration: none;
 }
