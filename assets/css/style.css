@@ -83,7 +83,7 @@ body {
 .btn-main:hover{
     background: var(--highlight);
     color: #657562;
-    border: 2px solid var(--accent);
+    /* border: 2px solid var(--accent); */
     text-decoration: none;
 }
 
