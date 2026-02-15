@@ -159,8 +159,8 @@ body {
 /* Layout */
 .content-wrapper {
     max-width: 1000px;
-    margin: 64px auto;
-    padding: 48px;
+    margin:10px auto;
+    padding:20px 40px;
     background: white;
     border-radius: 24px;
 }
