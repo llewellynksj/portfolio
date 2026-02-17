@@ -253,7 +253,7 @@ footer {
 
 /* Mobile: hide embed, show link */
 @media (max-width: 768px) {
-  .tableau-embed { display: none; }
+  .tableau-wrapper { display: none; }
   .tableau-mobile-link {
     display: block;
     text-align: center;
