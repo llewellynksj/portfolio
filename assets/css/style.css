@@ -228,7 +228,8 @@ a {
 
 a:hover {
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 800;
+    color: black;
 }
 
 /* Footer */
