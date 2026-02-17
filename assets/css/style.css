@@ -256,6 +256,7 @@ footer {
   .tableau-wrapper { display: none; }
   .tableau-mobile-link {
     display: block;
+    font-size: 20px;
     text-align: center;
     margin: 2rem 0;
   }
