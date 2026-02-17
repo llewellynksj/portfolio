@@ -239,7 +239,7 @@ footer {
 }
 
 /* Tableau */
-.tableau-embed { 
+.tableau-wrapper { 
     display: block; 
 }
 
