@@ -239,7 +239,24 @@ footer {
 }
 
 /* Tableau */
+.tableau-embed { 
+    display: block; 
+}
+
+.tableau-mobile-link { 
+    display: none; 
+}
+
 .tableauPlaceholder {
     margin-top: 24px;
 }
 
+/* Mobile: hide embed, show link */
+@media (max-width: 768px) {
+  .tableau-embed { display: none; }
+  .tableau-mobile-link {
+    display: block;
+    text-align: center;
+    margin: 2rem 0;
+  }
+}
