@@ -257,6 +257,10 @@ footer {
     text-align: left;
 }
 
+.intro {
+    color: var(--ink);
+}
+
 .contact-list {
     margin-top: 32px;
     display: flex;
