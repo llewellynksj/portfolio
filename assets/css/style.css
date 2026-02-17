@@ -230,11 +230,6 @@ a:hover {
     color: black;
 }
 
-.email-icon, .socials-icon {
-    font-size: 60px;
-
-}
-
 /* Footer */
 footer {
     margin-top: 64px;
@@ -254,6 +249,48 @@ footer {
 
 .tableauPlaceholder {
     margin-top: 24px;
+}
+
+/* CONTACT PAGE */
+
+.contact-wrapper {
+    text-align: left;
+}
+
+.contact-list {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 420px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: #faf9f7;
+    padding: 16px 18px;
+    border-radius: 14px;
+    transition: all 0.18s ease;
+    font-size: 17px;
+}
+
+.contact-item i {
+    font-size: 22px;
+    color: var(--accent);
+    width: 28px;
+    text-align: center;
+}
+
+.contact-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+    background: var(--highlight);
+}
+
+.contact-item span {
+    font-weight: 500;
 }
 
 /* Mobile: hide embed, show link */
