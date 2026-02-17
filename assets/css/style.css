@@ -154,8 +154,6 @@ body {
     margin-top:0px;
 }
 
-/* PROJECT REPORTS */
-
 /* Layout */
 .content-wrapper {
     max-width: 1000px;
@@ -230,6 +228,11 @@ a:hover {
     text-decoration: none;
     font-weight: 800;
     color: black;
+}
+
+.email-icon, socials-icon {
+    font-size: 60px;
+
 }
 
 /* Footer */
